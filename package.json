@@ -1,0 +1,25 @@
+{
+  "name": "teste-ibm",
+  "version": "1.0.0",
+  "description": "Teste feito para uma vaga de estágio na IBM",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurarraes/teste-ibm.git"
+  },
+  "author": "Arthur Tavares Arraes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthurarraes/teste-ibm/issues"
+  },
+  "homepage": "https://github.com/arthurarraes/teste-ibm#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "ibm-watson": "^10.0.0"
+  }
+}
