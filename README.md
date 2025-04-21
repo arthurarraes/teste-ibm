@@ -85,7 +85,7 @@ O servidor utiliza as credenciais da IBM Cloud para autenticar e acessar o servi
 https://github.com/user-attachments/assets/942a7f02-f56a-49c7-83ea-b812f2aeb2b7
 
 ## Estrutura de pastas
-### O projeto foi criado usando a seguinte organização organização e distribuição de responsabilidades do projeto:
+### O projeto foi criado usando a seguinte organização e distribuição de responsabilidades do projeto:
 
 - Model - Pasta `services` na qual interage com a API da IBM. <br>
 - View - Pasta `routes` onde fica o "ponto de entrada", em que o usuário fará a interação. <br>
