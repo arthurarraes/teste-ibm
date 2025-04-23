@@ -1,4 +1,4 @@
-# Innovation Studio - Technical Assessment
+# Ibm Innovation Studio - Technical Assessment
  
 Este projeto foi desenvolvido como parte do desafio do time Innovation Studio da IBM, com o objetivo de integrar o serviço **Text to Speech** da IBM Cloud e criar um servidor backend que converte texto em áudio.
  
@@ -114,12 +114,12 @@ Após instalar as dependências e configurar o `.env`, siga os passos abaixo par
 .
 ├── src/                         # Contém o código fonte do servidor
 │   ├── controllers/             # Controladores que lidam com a lógica das rotas
-│   │   └── controller.js     # Controlador para gerenciar o serviço de Text to Speech
+│   │   └── controller.js        # Controlador para gerenciar o serviço de Text to Speech
 │   ├── routes/                  # Define as rotas do servidor
 │   │   └── routes.js            # Arquivo que configura as rotas do servidor
 │   ├── services/                # Serviços que interagem com APIs externas
-│   │   └── service.js        # Serviço que interage com o serviço IBM Text to Speech
-│   ├── server.js                 # Arquivo principal que inicia o servidor Node.js
+│   │   └── service.js           # Serviço que interage com o serviço IBM Text to Speech
+│   ├── server.js                # Arquivo principal que inicia o servidor Node.js
 │   ├── .env                     # Arquivo de configuração com as chaves da API e URL do serviço IBM Text to Speech
 ├── node_modules/                # Dependências do projeto (não versionado no Git)
 ├── package.json                 # Arquivo de configuração do Node.js e scripts
